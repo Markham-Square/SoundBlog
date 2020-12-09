@@ -12,7 +12,7 @@ return [
     // collections
     'collections' => [
         'posts' => [
-            'author' => 'Dre', // Default author, if not provided in a post
+            'author' => 'Andrew Basile', // Default author, if not provided in a post
             'sort' => '-date',
             'path' => '/blog/{filename}',
         ],
