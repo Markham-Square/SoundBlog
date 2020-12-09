@@ -1,11 +1,11 @@
 ---
 extends: _layouts.post
 section: content
-title: Catalogs Are More Valuable Than Gold | The New Economics of Music
+title: The New Economics of Music
 date: 2020-12-08
-description: Catalogs are more valuable than gold and the new economics of music
+description: Catalogs are more valuable than gold...
 cover_image: /assets/img/gold.png
-categories: [publishing, streaming, music industry, finance, catalog]
+categories: [publishing, streaming, music-industry, finance, catalog]
 featured: true
 ---
 I once had a professor who told our class that one of the best business decisions a musician can make in their career is to write a hit Christmas song.  Plenty of big songs have their time on the charts, some can last for more than a year, but few reach that “evergreen” status and consistently perform well year-in and year-out.  Except for Christmas music.  The Christmas season comes around every year, and it’s so heavily associated with music that it drives significant streams and sales for an entire month.
