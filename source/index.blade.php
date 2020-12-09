@@ -24,7 +24,7 @@
                 Read
             </a>
         </div>
-        @if (! $loop->last)
+        @if ($loop->last)
             <hr class="border-b my-6">
         @endif
     @endforeach
