@@ -6,11 +6,11 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="{{ $page->description ?? $page->siteDescription }}">
 
-        <meta property="og:title" content="{{ $page->siteName }} | {{ $page->title ?  $page->title : '' }}"/>
+        <meta property="og:title" content="{{ $page->siteName }}  {{ $page->title ? ' | $page->title' : '' }}"/>
         <meta property="og:type" content="{{ $page->type ?? 'website' }}" />
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
         <meta property="og:description" content="{{ $page->description ?? $page->siteDescription }}" />
-        <title>{{ $page->siteName }} | {{ $page->title ?  $page->title : '' }}</title>
+        <title>{{ $page->siteName }} {{ $page->title ?  " | $page->title" : '' }}</title>
 
         <link rel="home" href="{{ $page->baseUrl }}">
         <link rel="icon" href="/favicon.ico">
@@ -26,40 +26,16 @@
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
-        <header class="flex items-center shadow bg-white border-b h-24 py-4" role="banner">
-            <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
-                <div class="flex items-center">
-                    <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                        <h1 class="text-xl text-blue-500 font-bold my-0">{{ $page->siteName }}</h1>
-                    </a>
-                </div>
+      @include('_nav.soundlog')
 
-                <div id="vue-search" class="flex flex-1 justify-end items-center">
-                    <search></search>
+      <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
+          @yield('body')
+      </main>
 
-                    @include('_nav.menu')
+      @include('_nav.footer')
 
-                    @include('_nav.menu-toggle')
-                </div>
-            </div>
-        </header>
+      <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
 
-        @include('_nav.menu-responsive')
-
-        <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
-            @yield('body')
-        </main>
-
-        <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
-            <ul class="flex flex-col md:flex-row justify-center list-none">
-                <li class="md:mr-2">
-                    &copy; <a href="https://www.soundlog.io" title="SoundLog website">SoundLog</a> {{ date('Y') }}.
-                </li>
-            </ul>
-        </footer>
-
-        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
-
-        @stack('scripts')
+      @stack('scripts')
     </body>
 </html>

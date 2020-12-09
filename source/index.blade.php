@@ -1,7 +1,12 @@
 @extends('_layouts.master')
 
 @section('body')
+<div class="flex justify-between mb-4">
     <h1 class="text-blue-500">SoundBlog</h1>
+    <div id="vue-search" class="flex flex-1 justify-end items-center">
+        <search></search>
+    </div>
+</div>
     @foreach ($posts->where('featured', true) as $featuredPost)
         <div class="w-full mb-6">
             @if ($featuredPost->cover_image)
