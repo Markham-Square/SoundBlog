@@ -14,7 +14,7 @@ return [
         'posts' => [
             'author' => 'Dre', // Default author, if not provided in a post
             'sort' => '-date',
-            'path' => 'blog/{filename}/index.html',
+            'path' => '/blog/{filename}/index.html',
         ],
         'categories' => [
             'path' => '/blog/categories/{filename}/index.html',
