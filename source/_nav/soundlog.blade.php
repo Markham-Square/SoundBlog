@@ -1,4 +1,4 @@
-<nav class="w-full bg-gray-50 pt-6 px-4 sm:px-6">
+<nav class="w-full pt-6 px-4 sm:px-6">
     <div class="flex items-baseline justify-between max-w-screen-xl mx-auto">
         <div class="flex items-center">
             <div class="flex items-center justify-between w-full md:w-auto">

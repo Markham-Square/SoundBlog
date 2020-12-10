@@ -25,7 +25,7 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
 
-    <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
+    <body class="flex flex-col justify-between min-h-screen text-gray-800 leading-normal font-sans">
       @include('_nav.soundlog')
 
       <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">

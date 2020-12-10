@@ -1,1 +1,6 @@
 // Your custom blog styles here
+.post-content{
+  a {
+    @apply font-semibold;
+  }
+}
