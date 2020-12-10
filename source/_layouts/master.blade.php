@@ -6,8 +6,9 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="{{ $page->description ?? $page->siteDescription }}">
 
-        <meta property="og:title" content="{{ $page->siteName ?? SoundBlog }} {{ $page->title ? '|' + $page->title : '' }}"/>
+        <meta property="og:title" content="SoundBlog {{ $page->title ? '|'.$page->title : '' }}"/>
         <meta property="og:type" content="{{ $page->type ?? 'website' }}" />
+        <meta property="og:image" content="{{$page->cover_image ?? ''}}"/>
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
         <meta property="og:description" content="{{ $page->description ?? $page->siteDescription }}" />
         <title>{{ $page->siteName }} {{ $page->title ?  " | $page->title" : '' }}</title>
