@@ -12,7 +12,7 @@
                 </a>
             </div>
             <div class="px-5 py-2">
-                <a href="https://soundblog.netlify.app/" class="text-base leading-6 text-gray-300 hover:text-gray-100">
+                <a href="{{ $page->baseUrl }}" class="text-base leading-6 text-gray-300 hover:text-gray-100">
                     Blog
                 </a>
             </div>

@@ -522,7 +522,7 @@ ul {
  */
 
 html {
-  font-family: Inter; /* 1 */
+  font-family: Inter var, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -727,7 +727,6 @@ body {
 }
 
 a {
-  font-weight: 600;
   text-decoration: none;
   --text-opacity: 1;
   color: #3182ce;
@@ -11330,7 +11329,7 @@ pre code {
 }
 
 .font-sans{
-  font-family: Inter;
+  font-family: Inter var, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .font-serif{
@@ -33553,7 +33552,7 @@ pre code {
   }
 
   .sm\:font-sans{
-    font-family: Inter;
+    font-family: Inter var, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .sm\:font-serif{
@@ -55703,7 +55702,7 @@ pre code {
   }
 
   .md\:font-sans{
-    font-family: Inter;
+    font-family: Inter var, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .md\:font-serif{
@@ -77853,7 +77852,7 @@ pre code {
   }
 
   .lg\:font-sans{
-    font-family: Inter;
+    font-family: Inter var, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .lg\:font-serif{
@@ -100003,7 +100002,7 @@ pre code {
   }
 
   .xl\:font-sans{
-    font-family: Inter;
+    font-family: Inter var, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .xl\:font-serif{

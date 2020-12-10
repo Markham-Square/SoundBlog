@@ -4,7 +4,7 @@ use Illuminate\Support\Str;
 
 
 return [
-    'baseUrl' => 'https://soundblog.netlify.app/',
+    'baseUrl' => 'https://blog.soundlog.io/',
     'production' => true,
     'siteName' => 'SoundBlog',
     'siteDescription' => 'The blog of Soundlog, the app where top publishers unlock their catalog insights.',
