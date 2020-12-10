@@ -3,7 +3,7 @@ extends: _layouts.post
 section: content
 title: The New Economics of Music
 date: 2020-12-08
-description: Catalogs are more valuable than gold...
+description: SoundLog considers recent publishing catalog acquisitions and their implications on the economics of the music industry.
 cover_image: /assets/img/gold.png
 categories: [publishing, streaming, music-industry, finance, catalog]
 featured: true
