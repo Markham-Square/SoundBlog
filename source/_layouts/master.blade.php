@@ -6,7 +6,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="{{ $page->description ?? $page->siteDescription }}">
 
-        <meta property="og:title" content="{{ $page->siteName }}  {{ $page->title ? ' | $page->title' : '' }}"/>
+        <meta property="og:title" content="{{ $page->siteName ?? SoundBlog }} {{ $page->title ? | {{$page->title}} : '' }}"/>
         <meta property="og:type" content="{{ $page->type ?? 'website' }}" />
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
         <meta property="og:description" content="{{ $page->description ?? $page->siteDescription }}" />
@@ -18,6 +18,15 @@
 
         @if ($page->production)
             <!-- Insert analytics code here -->
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180084551-1"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-180084551-1');
+            </script>
         @endif
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
