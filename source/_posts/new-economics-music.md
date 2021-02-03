@@ -6,7 +6,7 @@ date: 2020-12-08
 description: SoundLog considers recent publishing catalog acquisitions and their implications on the economics of the music industry.
 cover_image: /assets/img/gold.png
 categories: [publishing, streaming, music-industry, finance, catalog]
-featured: true
+featured: false
 ---
 I once had a professor who told our class that one of the best business decisions a musician can make in their career is to write a hit Christmas song.  Plenty of big songs have their time on the charts, some can last for more than a year, but few reach that “evergreen” status and consistently perform well year-in and year-out.  Except for Christmas music.  The Christmas season comes around every year, and it’s so heavily associated with music that it drives significant streams and sales for an entire month.
 

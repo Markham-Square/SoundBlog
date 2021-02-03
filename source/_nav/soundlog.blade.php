@@ -2,9 +2,15 @@
     <div class="flex items-baseline justify-between max-w-screen-xl mx-auto">
         <div class="flex items-center">
             <div class="flex items-center justify-between w-full md:w-auto">
-                <a href="{{ $page->baseUrl }}" aria-label="Home">
+            @if ($page->getPath())
+                <a href="{{$page->baseUrl}}" aria-label="Home">
                     <h1 class="text-xl text-blue-500 font-bold">SoundLog</h1>
                 </a>
+            @else
+                <a href="https://soundlog.io/" aria-label="Home">
+                    <h1 class="text-xl text-blue-500 font-bold">SoundLog</h1>
+                </a>
+            @endif    
             </div>
         </div>
         <div class="flex items-center">
