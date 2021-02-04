@@ -1,7 +1,7 @@
 ---
 extends: _layouts.post
 section: content
-title: I Love Spotify Wrapped!
+title: The Truth about Spotify Wrapped
 date: 2021-01-30
 description: As Spotify continues to establish itself as a big hitter in the streaming space they constantly impress me with their innovation and ability tocapture nostalgia.
 cover_image: /assets/img/spotify-wrapped.jpg
