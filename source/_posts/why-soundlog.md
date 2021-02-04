@@ -4,7 +4,7 @@ section: content
 title: Why SoundLog?
 date: 2021-02-02
 description: Learn about the motivation behind SoundLog and why we've built this platform.
-cover_image: /assets/img/travis-scott.jpg
+cover_image: /assets/img/why-sl.jpg
 categories: [publishing, music-industry, catalog]
 featured: true
 ---

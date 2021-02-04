@@ -14,7 +14,7 @@ return [
     'collections' => [
         'posts' => [
             'author' => 'Andrew Basile', // Default author, if not provided in a post
-            'sort' => '-date',
+            'sort' => 'date',
             'path' => 'blog/{filename}',
         ],
         'categories' => [
